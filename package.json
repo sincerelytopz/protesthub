@@ -1,4 +1,13 @@
 {
+  "name": "protesthub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "next": "latest",
     "react": "latest",
@@ -6,6 +15,15 @@
     "mongodb": "^5.7.0",
     "cloudinary": "^2.4.0",
     "swr": "^2.2.0",
-    "next-connect": "^0.12.2"
+    "next-connect": "^0.12.2",
+    "formidable": "^3.5.0",
+    "@heroicons/react": "^2.0.18"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "typescript": "^5.0.0",
+    "@tailwindcss/forms": "^0.5.7"
   }
 }
